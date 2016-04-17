@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">2016 Chicago Events - Summer Edition</string>
+    <string name="description_name">About</string>
+
+    <string name="event_1_name">Brew to Be Wild</string>
+    <string name="event_1_shortdesc">Image of Brew to Be Wild</string>
+    <string name="event_1_longdesc">
+        Tap your inner animal—and savor some great craft beers—at the second annual
+        "Brew to Be Wild" tasting event. Adults can enjoy a selection from more than
+        75 specialty brews from 35-plus local and regional breweries, alongside animal
+        encounters and other fun, after-hours activities.\n\n
+
+        Beyond the tasting stations along the zoo\'s winding paths, this ticketed event will
+        feature lawn games, DJ beats and tasty food for purchase. A limited number of VIP
+        tickets will include exclusive beer tastings, snacks and access to a private lounge
+        and restrooms.
+    </string>
+    <string name="event_1_price">$50.00</string>
+    <string name="event_1_dates">June 17th - 18th</string>
+    <string name="event_1_website">http://lpzoo.org/brew-be-wild</string>
+    <string name="event_1_location">Lincoln Park Zoo</string>
+
+    <string name="event_2_name">Taste of Chicago</string>
+    <string name="event_2_shortdesc">Image of Taste of Chicago</string>
+    <string name="event_2_longdesc">
+        Taste of Chicago is the nation\'s premier outdoor food festival showcasing the diversity of
+        Chicago\'s dining community. The delicious array of food served at Taste of Chicago is
+        complemented by music and exciting activities for the entire family. Every summer
+        since 1980, Chicago\'s beautiful Grant Park on the city\'s magnificent lakefront
+        has been home to the world\'s largest food festival.\n\n
+
+        The Taste of Chicago (mostly known as The Taste) is the world\'s largest food festival,
+        held for five days in July in Chicago, Illinois in Grant Park. The event is the largest
+        festival in Chicago. Non-food-related events include live music on multiple stages,
+        including the Petrillo Music Shell, pavilions, and performances. Musical acts vary from
+        local artists to nationally known artists like Carlos Santana, Moby, Kenny Rogers or
+        Robert Plant. Since 2008, The Chicago Country Music Festival no longer occurs
+        simultaneously with Taste of Chicago as it departed the Taste of Chicago for its
+        own two-day festival typically held in the fall. Rides are also present, such as a
+        Ferris wheel and the Jump to Be Fit.
+    </string>
+    <string name="event_2_price">Free</string>
+    <string name="event_2_dates">July 6th - 10th</string>
+    <string name="event_2_website">http://tasteofchicago.us/</string>
+    <string name="event_2_location">Grant Park</string>
+
+    <string name="event_3_name">Lollapalooza</string>
+    <string name="event_3_shortdesc">Image of Lollapalooza</string>
+    <string name="event_3_longdesc">
+        Lollapalooza is an annual music festival featuring popular alternative rock,
+        heavy metal, punk rock, hip hop, and EDM bands and artists, dance and comedy performances
+        and craft booths. This summer concert is perfect due to its wide range of musical artists
+        and performances. Tickets are hard to come by however, and the event usually sells out in
+        less than an hour from tickets going on sale. Tickets can still be found online from
+        reputable resellers. If you still want to go, we suggest to wait until tickets are mailed.
+        By waiting, not only do the prices drop, but it gives you a way to verify validity of second
+        hand tickets!\n\n
+
+        Conceived and created in 1991 by Jane\'s Addiction singer Perry Farrell as a farewell tour
+        for his band, Lollapalooza ran annually until 1997, and was revived in 2003. From its
+        inception through 1997 and its revival in 2003, the festival toured North America.
+        In 2004, the festival organizers decided to expand the dates to two days per city, but poor
+        ticket sales forced the 2004 tour to be canceled. In 2005, Farrell and the
+        William Morris Agency partnered with Austin, Texas–based company Capital Sports
+        Entertainment (now C3 Presents) and retooled it into its current format as a weekend
+        destination festival in Grant Park, Chicago, Illinois.\n\n
+
+        The music festival hosts more than 160,000 people over a two or three-day period.
+        Lollapalooza has featured a diverse range of bands and has helped expose and popularize
+        artists such as Nine Inch Nails, Kanye West, The Smashing Pumpkins, Muse, Kid Cudi,
+        Imagine Dragons, Babes in Toyland, Beastie Boys, Kings of Leon, Foster The People,
+        Coldplay, Stone Temple Pilots, Depeche Mode, Foo Fighters, Red Hot Chili Peppers, Ministry,
+        Pearl Jam, The Cure, Of Monsters and Men, Thirty Seconds to Mars, The Killers, and many
+        more.
+    </string>
+    <string name="event_3_price">$335.00</string>
+    <string name="event_3_dates">July 28th - 31st</string>
+    <string name="event_3_website">http://lollapalooza.com</string>
+    <string name="event_3_location">Grant Park</string>
+
+    <string name="event_4_name">Chicago Air and Water Show</string>
+    <string name="event_4_shortdesc">Image of Air and Water Show</string>
+    <string name="event_4_longdesc">
+        The Chicago Air and Water Show is an annual air show held on the shore of Lake Michigan
+        in Chicago, Illinois. The show has been held each year since 1959 and is Chicago\'s
+        second most popular festival. In 2005, 2,200,000 watched the Chicago Air and Water Show.\n\n
+
+        The air show is a free event that showcases daredevil pilots, parachute teams, and
+        jets flying in formation, as well as a water-skiing and boat-jumping component.
+        Because of its proximity to city beaches and skyline, the demonstrations are visible
+        from almost everywhere along the Chicago lakefront. Grandstand seats for the water
+        show are located at North Avenue Beach. WBBM AM (780) broadcasts both days of the event
+        every year.\n\n
+
+        The air show features both civilian and military pilots. Flying teams have been sponsored
+        by companies including Oracle and Red Bull. Many of the Air Show performers utilize
+        Chicago\'s third airport, the Gary/Chicago International Airport in nearby Gary, Indiana,
+        for ground support. The U.S. Army Golden Knights have participated each year for
+        several years running. The U.S. Navy Blue Angels and U.S. Air Force Thunderbirds
+        alternate annually as headliners.
+    </string>
+    <string name="event_4_price">Free</string>
+    <string name="event_4_dates">August 20th - 21st</string>
+    <string name="event_4_website">http://chicagoairandwatershow.us/</string>
+    <string name="event_4_location">North Avenue Beach</string>
+
+    <string name="event_5_name">Riot Fest</string>
+    <string name="event_5_shortdesc">Image of Riot Fest</string>
+    <string name="event_5_longdesc">
+        Riot Fest (also known as Riot Fest and Carnival) is a multi-day music festival.
+        Riot Fest specializes in rock, punk, alternative rock, and hip hop. Riot Fest
+        is known for booking reunions, guest performances, and full album performances. First
+        started as a multi-venue festival in Chicago in 2005, Riot Fest has since expanded to
+        Denver and Toronto.\n\n
+
+        The majority of bands that play Riot Fest fall somewhere on the punk spectrum with
+        punk rock, new wave and hardcore punk being the most heavily represented genres.
+        Emo, alternative rock, pop punk, ska and metalcore have also had a strong presence
+        at Riot Fest. The occasionally novelty hip hop, psychobilly, thrash metal, post-hardcore
+        and indie pop bands have also appeared at Riot Fest.\n\n
+
+        Local Chicago bands that have played Riot Fest include Naked Raygun, The Lawrence Arms,
+        Rise Against, Alkaline Trio, Fall Out Boy, Screeching Weasel, Flatfoot 56,
+        The Tossers and Slapstick.
+    </string>
+    <string name="event_5_price">$150.00</string>
+    <string name="event_5_dates">September 16th - 18th</string>
+    <string name="event_5_website">http://riotfest.org</string>
+    <string name="event_5_location">Douglas Park</string>
+</resources>
