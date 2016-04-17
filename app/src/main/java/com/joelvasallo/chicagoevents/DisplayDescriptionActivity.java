@@ -1,20 +1,20 @@
 package com.joelvasallo.chicagoevents;
 
-import android.app.Fragment;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.method.LinkMovementMethod;
-import android.view.LayoutInflater;
+import android.util.Log;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import java.util.Calendar;
+import java.text.DateFormat;
+import java.text.ParsePosition;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
 
 public class DisplayDescriptionActivity extends AppCompatActivity {
 
@@ -92,15 +92,63 @@ public class DisplayDescriptionActivity extends AppCompatActivity {
         eventBody.setText(body);
     }
 
+    private long dateToEpoch(String date) {
+        // "06 13 2003 12:11 PM CST"
+        SimpleDateFormat df = new SimpleDateFormat("MM dd yyyy hh:mm a", Locale.ENGLISH);
+        df.setLenient(false);
+        ParsePosition pos = new ParsePosition(0);
+        Date dateObj = df.parse(date, pos);
+
+        return dateObj.getTime();
+    }
+
     public void addToCalendar(View view) {
-        Calendar cal = Calendar.getInstance();
+        String title = getTitle().toString();
+        String eventAddress = "";
+        String eventWebsite = "";
+        long startDate = 0;
+        long endDate = 0;
+
+        switch (title) {
+            case "Brew to Be Wild":
+                startDate = dateToEpoch(getResources().getString(R.string.event_1_startdate));
+                endDate = dateToEpoch(getResources().getString(R.string.event_1_enddate));
+                eventAddress = getResources().getString(R.string.event_1_location);
+                eventWebsite = getResources().getString(R.string.event_1_website);
+                break;
+            case "Taste of Chicago":
+                startDate = dateToEpoch(getResources().getString(R.string.event_2_startdate));
+                endDate = dateToEpoch(getResources().getString(R.string.event_2_enddate));
+                eventAddress = getResources().getString(R.string.event_2_location);
+                eventWebsite = getResources().getString(R.string.event_2_website);
+                break;
+            case "Lollapalooza":
+                startDate = dateToEpoch(getResources().getString(R.string.event_3_startdate));
+                endDate = dateToEpoch(getResources().getString(R.string.event_3_enddate));
+                eventAddress = getResources().getString(R.string.event_3_location);
+                eventWebsite = getResources().getString(R.string.event_3_website);
+                break;
+            case "Chicago Air and Water Show":
+                startDate = dateToEpoch(getResources().getString(R.string.event_4_startdate));
+                endDate = dateToEpoch(getResources().getString(R.string.event_4_enddate));
+                eventAddress = getResources().getString(R.string.event_4_location);
+                eventWebsite = getResources().getString(R.string.event_4_website);
+                break;
+            case "Riot Fest":
+                startDate = dateToEpoch(getResources().getString(R.string.event_5_startdate));
+                endDate = dateToEpoch(getResources().getString(R.string.event_5_enddate));
+                eventAddress = getResources().getString(R.string.event_5_location);
+                eventWebsite = getResources().getString(R.string.event_5_website);
+                break;
+        }
+
         Intent intent = new Intent(Intent.ACTION_EDIT);
         intent.setType("vnd.android.cursor.item/event");
-        intent.putExtra("beginTime", cal.getTimeInMillis());
-        intent.putExtra("allDay", true);
-        intent.putExtra("rrule", "FREQ=YEARLY");
-        intent.putExtra("endTime", cal.getTimeInMillis()+60*60*1000);
-        intent.putExtra("title", "A Test Event from android app");
+        intent.putExtra("beginTime", startDate);
+        intent.putExtra("endTime", endDate);
+        intent.putExtra("eventLocation", eventAddress);
+        intent.putExtra("description", eventWebsite);
+        intent.putExtra("title", title);
         startActivity(intent);
     }
 }
