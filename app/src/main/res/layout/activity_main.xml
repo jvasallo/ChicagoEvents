@@ -18,7 +18,7 @@
 
             <ImageButton
                 android:id="@+id/brewtobewild_imagebutton"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:background="@null"
                 android:contentDescription="@string/event_1_shortdesc"
@@ -121,7 +121,7 @@
 
             <ImageButton
                 android:id="@+id/lollapalooza_imagebutton"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:background="@null"
                 android:contentDescription="@string/event_3_shortdesc"
@@ -172,7 +172,7 @@
 
             <ImageButton
                 android:id="@+id/airandwatershow_imagebutton"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:background="@null"
                 android:scaleType="centerCrop"
@@ -223,7 +223,7 @@
 
             <ImageButton
                 android:id="@+id/riotfest_imagebutton"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:background="@null"
                 android:contentDescription="@string/event_5_shortdesc"

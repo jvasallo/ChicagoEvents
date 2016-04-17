@@ -30,15 +30,16 @@ public class DisplayDescriptionActivity extends AppCompatActivity {
 
     private void updateView(String key) {
         Drawable image = ResourcesCompat.getDrawable(getResources(), R.drawable.brewtobewild, null);
-        String title = "";
+        String title = "Joel Was Here";
         String date = "July 15th - July 16th";
         String price = "Free";
         String website = "http://joelvasallo.com";
-        String body = "";
+        String body = "Lorum Ipsum...wait how did you get here?";
+
         switch (key) {
             case "brewtobewild_imagebutton":
                 image = ResourcesCompat.getDrawable(getResources(), R.drawable.brewtobewild, null);
-                title += getResources().getString(R.string.event_1_name);
+                title = getResources().getString(R.string.event_1_name);
                 date = getResources().getString(R.string.event_1_dates);
                 price = getResources().getString(R.string.event_1_price);
                 website = getResources().getString(R.string.event_1_website);
@@ -46,7 +47,7 @@ public class DisplayDescriptionActivity extends AppCompatActivity {
                 break;
             case "tasteofchicago_imagebutton":
                 image = ResourcesCompat.getDrawable(getResources(), R.drawable.tasteofchicago, null);
-                title += getResources().getString(R.string.event_2_name);
+                title = getResources().getString(R.string.event_2_name);
                 date = getResources().getString(R.string.event_2_dates);
                 price = getResources().getString(R.string.event_2_price);
                 website = getResources().getString(R.string.event_2_website);
@@ -54,7 +55,7 @@ public class DisplayDescriptionActivity extends AppCompatActivity {
                 break;
             case "lollapalooza_imagebutton":
                 image = ResourcesCompat.getDrawable(getResources(), R.drawable.lollapalooza, null);
-                title += getResources().getString(R.string.event_3_name);
+                title = getResources().getString(R.string.event_3_name);
                 date = getResources().getString(R.string.event_3_dates);
                 price = getResources().getString(R.string.event_3_price);
                 website = getResources().getString(R.string.event_3_website);
@@ -62,7 +63,7 @@ public class DisplayDescriptionActivity extends AppCompatActivity {
                 break;
             case "airandwatershow_imagebutton":
                 image = ResourcesCompat.getDrawable(getResources(), R.drawable.airandwatershow, null);
-                title += getResources().getString(R.string.event_4_name);
+                title = getResources().getString(R.string.event_4_name);
                 date = getResources().getString(R.string.event_4_dates);
                 price = getResources().getString(R.string.event_4_price);
                 website = getResources().getString(R.string.event_4_website);
@@ -70,7 +71,7 @@ public class DisplayDescriptionActivity extends AppCompatActivity {
                 break;
             case "riotfest_imagebutton":
                 image = ResourcesCompat.getDrawable(getResources(), R.drawable.riotfest, null);
-                title += getResources().getString(R.string.event_5_name);
+                title = getResources().getString(R.string.event_5_name);
                 date = getResources().getString(R.string.event_5_dates);
                 price = getResources().getString(R.string.event_5_price);
                 website = getResources().getString(R.string.event_5_website);
