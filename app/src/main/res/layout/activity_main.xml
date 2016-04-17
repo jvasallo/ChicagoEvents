@@ -19,18 +19,18 @@
             <ImageButton
                 android:id="@+id/brewtobewild_imagebutton"
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
+                android:layout_height="300dp"
                 android:background="@null"
                 android:contentDescription="@string/event_1_shortdesc"
                 android:scaleType="centerCrop"
-                android:src="@drawable/brewtobewild"
-                android:onClick="launch_description"/>
+                android:src="@drawable/brewtobewild" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignBottom="@+id/brewtobewild_imagebutton"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="16dp">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -71,7 +71,7 @@
             <ImageButton
                 android:id="@+id/tasteofchicago_imagebutton"
                 android:layout_width="fill_parent"
-                android:layout_height="250dp"
+                android:layout_height="300dp"
                 android:background="@null"
                 android:contentDescription="@string/event_2_shortdesc"
                 android:scaleType="centerCrop"
@@ -81,7 +81,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignBottom="@+id/tasteofchicago_imagebutton"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="16dp">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -122,7 +123,7 @@
             <ImageButton
                 android:id="@+id/lollapalooza_imagebutton"
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
+                android:layout_height="300dp"
                 android:background="@null"
                 android:contentDescription="@string/event_3_shortdesc"
                 android:scaleType="centerCrop"
@@ -132,7 +133,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignBottom="@+id/lollapalooza_imagebutton"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="16dp">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -173,7 +175,7 @@
             <ImageButton
                 android:id="@+id/airandwatershow_imagebutton"
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
+                android:layout_height="300dp"
                 android:background="@null"
                 android:scaleType="centerCrop"
                 android:contentDescription="@string/event_4_shortdesc"
@@ -183,7 +185,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignBottom="@+id/airandwatershow_imagebutton"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="16dp">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -224,7 +227,7 @@
             <ImageButton
                 android:id="@+id/riotfest_imagebutton"
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
+                android:layout_height="300dp"
                 android:background="@null"
                 android:contentDescription="@string/event_5_shortdesc"
                 android:scaleType="centerCrop"
@@ -234,7 +237,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignBottom="@+id/riotfest_imagebutton"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="16dp">
 
                 <TextView
                     android:layout_width="match_parent"
